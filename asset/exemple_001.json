@@ -1,8 +1,14 @@
 {
-    "test" : 1 , 
-    "test2" : {
-        "id": 1 , 
-        "test" : {"yu": "IZI" , "hello" : {"world" : 1 , "sd" : [1,2,3]} }
-    },
-    "test3" : 4
+    "PHP": {
+        "engine": "On",
+        "short_open_tag": "Off",
+        "precision": "14",
+        "output_buffering": "4096",
+        "max_input_time": "60",
+        "memory_limit": "128M",
+        "user_ini": {
+            "filename": ".config.ini",
+            "cache_ttl": [1,2,3]
+        }
+    }
 }

@@ -7,7 +7,7 @@ def json2ini(object_variable,string="",string_key="") :
         if not type(object_variable[key]) == dict :
             if type(object_variable[key]) == list :
                 for tab_value in object_variable[key] : 
-                    string += key + "[]=" + str(tab_value) + "\n" 
+                    string += key + "[]=" + str(tab_value) + "\n"
             else : 
                 string += key + "=" + str(object_variable[key]) + "\n"
     string+="\n"
